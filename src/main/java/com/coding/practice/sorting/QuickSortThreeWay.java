@@ -3,7 +3,7 @@ package com.coding.practice.sorting;
 public class QuickSortThreeWay {
 
 	public static void main(String[] args) {
-		Integer arr[] = { 4, 9, 4, 4, 1, 9, 4, 4, 9, 4, 4, 1, 4 };
+		Integer arr[] = { 9, 9, 4, 4, 1, 9, 4, 4, 9, 4, 4, 1, 4 };
 		sort(arr, 0, arr.length - 1);
 		printArray(arr);
 	}
