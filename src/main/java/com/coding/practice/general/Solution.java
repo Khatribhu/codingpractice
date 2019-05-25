@@ -1,9 +1,10 @@
 
 package com.coding.practice.general;
 
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
-import java.util.Random;
+import java.util.Observer;
 import java.util.regex.Pattern;
 
 class Parent { 
@@ -72,37 +73,30 @@ public class Solution {
 	}
 	public static void main(String[] args) {	
 
-		
-		System.out.println("khatri");
-		Integer arr[] = { 1,2,3,4,5,6,6,8,9};
-		List<Integer> arrayList = Arrays.asList(arr);
-		int val = 0;
-		arrayList.forEach( a -> System.out.println(a));
-		
-		System.out.println("start");
-		System.out.println(val);
-		System.out.println("end");
-		Random rand = new Random();
-		for (int i = 0; i < 10; i++) {
-			int randomNum = rand.nextInt(3) + 3;
-			System.out.println(randomNum);
-		}
-		System.out.println("-----Random number ends-----");
-		String arch = System.getProperty("sun.arch.data.model");
-		if (arch != null) {
-			if (arch.contains("32")) {
-				// If exists and is 32 bit then we assume a 32bit JVM
-				System.out.println("system is 32 bit.");
-			} else {
-				System.out.println("system is not 32 bit it is:" + arch);
-
+		Observer
+		Arrays.sort(new int[4]);
+		List<Integer> list = new ArrayList<>();
+		list.add(2);
+		list.add(9);
+		list.add(3);
+		list.add(1);
+		list.add(0);
+		Comparator<Integer> cmp = new Comparator<Integer>() {
+			@Override
+			public int compare(Integer o1, Integer o2) {
+				// TODO Auto-generated method stub
+				return o1.compareTo(o2);
 			}
-		}
-		for (int N = 0; N < 100; N++) {
-			System.out.println("DP: " + N + " " + FiboDP(N));	
-			// System.out.println(N + " " + F(N));
-		}
-
-		int[] array = { 2, 3, 5, 6, 243, 45 };
+		};
+		
+		
+		list.stream().forEach(a -> {
+			if(a == 3) {
+				int count = 0;
+			}
+		});
+		list.forEach(a -> System.out.println(a));
+		
+		
 	}
 }
