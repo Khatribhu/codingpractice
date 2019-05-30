@@ -1,10 +1,12 @@
-
 package com.coding.practice.general;
 
+import java.math.BigInteger;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
-import java.util.Observer;
 import java.util.regex.Pattern;
 
 class Parent { 
@@ -71,9 +73,19 @@ public class Solution {
 			}
 		}
 	}
-	public static void main(String[] args) {	
+	public static void main(String[] args) throws NoSuchAlgorithmException {	
 
-		Observer
+		String s = "";
+		StringBuilder strBuild = new StringBuilder();
+		MessageDigest digest = MessageDigest.getInstance("MD5");
+		byte[] messageDigest = digest.digest(new String().getBytes());
+		BigInteger no  = new BigInteger(1, messageDigest);
+		String hasText = no.toString();
+		while(hasText.length() < 32) {
+			hasText = "0"+hasText;
+		}
+		
+		
 		Arrays.sort(new int[4]);
 		List<Integer> list = new ArrayList<>();
 		list.add(2);
