@@ -6,14 +6,14 @@ import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.Hashtable;
 import java.util.List;
 import java.util.regex.Pattern;
 
 class Parent { 
-	Parent(int a, String b) {
-		
+	Parent(int a, String b) throws ClassCastException {
 	}
-
+	
 }
 
 class Child extends Parent {
@@ -74,7 +74,19 @@ public class Solution {
 		}
 	}
 	public static void main(String[] args) throws NoSuchAlgorithmException {	
+		
 
+		String str3 = " ABC".trim();
+		String str1 = "ABC";
+		System.out.println(str1==str3);
+
+				
+		Hashtable table = new Hashtable<>();
+		table.values().iterator();
+		List<String> lsit = new ArrayList<>();
+		for(String str : lsit) {
+			lsit.remove("asd");
+		}
 		String s = "";
 		StringBuilder strBuild = new StringBuilder();
 		MessageDigest digest = MessageDigest.getInstance("MD5");

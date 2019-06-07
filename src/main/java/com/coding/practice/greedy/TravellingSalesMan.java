@@ -1,4 +1,4 @@
-package com.coding.practice.DP;
+package com.coding.practice.greedy;
 
 public class TravellingSalesMan {
 

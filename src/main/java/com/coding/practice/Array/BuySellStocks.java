@@ -6,18 +6,19 @@ import java.util.List;
 public class BuySellStocks {
 
 	public static void main(String[] args) {
-		int arr[] = { 7, 1, 5, 3, 6, 4 };
-//		System.out.println(findMaxDiff(arr));
-//		System.out.println(findMaxDiff2(arr));
-//		System.out.println(findMaxDiff3(arr));
-		// System.out.println(findMaxDiff4(arr));
-		// System.out.println(findMaxDiff5(arr));
+		int arr[] = { 7,1,9,3,8,4 };
+		System.out.println(findMaxDiff(arr));
+		System.out.println(findMaxDiff2(arr));
+		System.out.println(findMaxDiff3(arr));
+		System.out.println(findMaxDiff4(arr));
+		System.out.println(findMaxDiff5(arr));
 		int[] price = { 100, 180, 260, 310, 40, 535, 695 };
 		// buy and sell stock once
-		// System.out.println(maxProfil(arr));
+		System.out.println(maxProfil(arr));
 
 		int[] val = { 100, 180, 260, 310, 40, 535, 695 };
-		findMaxProfit(val);
+
+		findMaxProfit(arr);
 	}
 
 	/**
@@ -48,6 +49,9 @@ public class BuySellStocks {
 	public static int findMaxDiff2(int arr[]) {
 		int minEle = arr[0];
 		int maxDiff = arr[1] - arr[0];
+		if(maxDiff < 0) {
+			maxDiff = 0;
+		}
 
 		for (int i = 1; i < arr.length; i++) {
 			if ((arr[i] - minEle) > maxDiff) {
@@ -95,9 +99,9 @@ public class BuySellStocks {
 			diff[i] = arr[i + 1] - arr[i];
 		}
 
-		printArray(arr);
-		System.out.println();
-		printArray(diff);
+	//	printArray(arr);
+	//	System.out.println();
+	//	printArray(diff);
 		// Now find the maximum sum subarray in diff array
 		int max_diff = diff[0];
 		for (int i = 1; i < n - 1; i++) {
@@ -142,6 +146,20 @@ public class BuySellStocks {
 		}
 	}
 
+	
+	public static void findMaxProfitBK(int[] price) {
+		int n = price.length;
+		if(n == 1) {
+			return;
+		}
+		
+		int i = 0;
+		while(i < n) {
+			
+			//find local minima
+			for(int i = 0; i < )
+		}
+	}
 	/**
 	 * When buying and selling can be done multiple times.
 	 */
