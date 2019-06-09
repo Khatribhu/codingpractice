@@ -147,19 +147,6 @@ public class BuySellStocks {
 	}
 
 	
-	public static void findMaxProfitBK(int[] price) {
-		int n = price.length;
-		if(n == 1) {
-			return;
-		}
-		
-		int i = 0;
-		while(i < n) {
-			
-			//find local minima
-			for(int i = 0; i < )
-		}
-	}
 	/**
 	 * When buying and selling can be done multiple times.
 	 */
