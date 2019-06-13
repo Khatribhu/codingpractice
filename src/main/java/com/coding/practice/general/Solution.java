@@ -1,49 +1,41 @@
 package com.coding.practice.general;
 
-import java.math.BigInteger;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.Hashtable;
-import java.util.List;
+import java.io.FileNotFoundException;
 import java.util.regex.Pattern;
 
-class Parent { 
+class Parent {
 	Parent(int a, String b) throws ClassCastException {
 	}
-	
+
 }
 
 class Child extends Parent {
-	
+
 	Child() {
-		super(5,"ab");
+		super(5, "ab");
 	}
-	
+
 	Child(int a, String b) {
 		super(5, "ab");
 	}
 }
 
-
 public class Solution {
-	
-	
+
 	public static void callMethod(Integer l) {
 		System.out.println("method with Integer arg");
 	}
-	
+
 	public static void callMethod(long l) {
 		System.out.println("method with long primitive type");
 	}
-	
-	 Solution() {
+
+	Solution() {
 		System.out.println("this is constructor");
 	}
+
 	static {
-		//System.out.println("I am static method");
+		// System.out.println("I am static method");
 	}
 	private static final Pattern AMPERSAND = Pattern.compile("&");
 
@@ -73,54 +65,28 @@ public class Solution {
 			}
 		}
 	}
-	public static void main(String[] args) throws NoSuchAlgorithmException {	
-		
 
-		String str3 = " ABC".trim();
-		String str1 = "ABC";
-		System.out.println(str1==str3);
+	public static void main(String[] args) {
 
-				
-		Hashtable table = new Hashtable<>();
-		table.values().iterator();
-		List<String> lsit = new ArrayList<>();
-		for(String str : lsit) {
-			lsit.remove("asd");
+		try {
+			method1();
+		} catch (FileNotFoundException e) {
+			System.out.println(e.getMessage());
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
 		}
-		String s = "";
-		StringBuilder strBuild = new StringBuilder();
-		MessageDigest digest = MessageDigest.getInstance("MD5");
-		byte[] messageDigest = digest.digest(new String().getBytes());
-		BigInteger no  = new BigInteger(1, messageDigest);
-		String hasText = no.toString();
-		while(hasText.length() < 32) {
-			hasText = "0"+hasText;
+	}
+
+	public static void method1() throws Exception {
+		try {
+			throw new Exception();
+		} catch (Exception e) {
+			System.out.println();
+			throw new FileNotFoundException("catch excpetion");
+			
+		} finally {
+			System.out.println("finally executing");
+			
 		}
-		
-		
-		Arrays.sort(new int[4]);
-		List<Integer> list = new ArrayList<>();
-		list.add(2);
-		list.add(9);
-		list.add(3);
-		list.add(1);
-		list.add(0);
-		Comparator<Integer> cmp = new Comparator<Integer>() {
-			@Override
-			public int compare(Integer o1, Integer o2) {
-				// TODO Auto-generated method stub
-				return o1.compareTo(o2);
-			}
-		};
-		
-		
-		list.stream().forEach(a -> {
-			if(a == 3) {
-				int count = 0;
-			}
-		});
-		list.forEach(a -> System.out.println(a));
-		
-		
 	}
 }
