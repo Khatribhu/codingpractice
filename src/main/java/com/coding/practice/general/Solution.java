@@ -3,6 +3,31 @@ package com.coding.practice.general;
 import java.io.FileNotFoundException;
 import java.util.regex.Pattern;
 
+@FunctionalInterface
+interface example {
+	
+	public String name = "khatri";
+	static void methodStatic() {
+		System.out.println("static method");
+	}
+	
+	default void methodDefault() {
+		System.out.println("executing default");
+	}
+	
+	public void abstractMethod(int val);
+}
+
+abstract class abstractClass {
+	
+	public abstractClass() {
+		System.out.println("asdfgvnb");
+	}
+	
+	abstract int abstractMethod();
+}
+
+
 class Parent {
 	Parent(int a, String b) throws ClassCastException {
 	}
@@ -67,7 +92,16 @@ public class Solution {
 	}
 
 	public static void main(String[] args) {
-
+		
+		example.methodStatic();
+		example ex = a -> {
+			System.out.println(a);
+		};
+		System.out.println(ex);
+		ex.methodDefault();
+		ex.abstractMethod(6);
+		System.out.println(ex.name);
+		
 		try {
 			method1();
 		} catch (FileNotFoundException e) {
