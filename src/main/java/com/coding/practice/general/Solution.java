@@ -92,7 +92,8 @@ public class Solution {
 	}
 
 	public static void main(String[] args) {
-		
+
+		String str = "";
 		example.methodStatic();
 		example ex = a -> {
 			System.out.println(a);
