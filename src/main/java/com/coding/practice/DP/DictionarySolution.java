@@ -1,3 +1,4 @@
+package com.coding.practice.DP;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
@@ -37,10 +38,6 @@ public class DictionarySolution {
 			result.add(letters);
 		}
 		return result;
-	}
-
-	public static String generateWords(String letters) {
-
 	}
 
 	public static boolean doTestsPass() {

@@ -1,4 +1,4 @@
-Opackage com.coding.practice.general;
+package com.coding.practice.general;
 
 import java.io.FileNotFoundException;
 import java.util.regex.Pattern;
@@ -6,7 +6,6 @@ import java.util.regex.Pattern;
 @FunctionalInterface
 interface example {
 	
-	public String name = "khatri";
 	static void methodStatic() {
 		System.out.println("static method");
 	}
@@ -93,16 +92,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 
-		String str = "";
-		example.methodStatic();
-		example ex = a -> {
-			System.out.println(a);
-		};
-		System.out.println(ex);
-		ex.methodDefault();
-		ex.abstractMethod(6);
-		System.out.println(ex.name);
-		
 		try {
 			method1();
 		} catch (FileNotFoundException e) {
