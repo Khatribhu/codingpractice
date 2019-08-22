@@ -45,11 +45,11 @@ public class Test {
 		}
 	}
 
-	public static void main(String[] args) {
-		// String inputString = "()()()";
-		String inputString = "()()(((((()()(((()()()()()))()";
-		System.out.println("maxCount :" + longestValidParenthesis(inputString));
-
-	}
+//	public static void main(String[] args) {
+//		// String inputString = "()()()";
+//		String inputString = "()()(((((()()(((()()()()()))()";
+//		System.out.println("maxCount :" + longestValidParenthesis(inputString));
+//
+//	}
 
 }

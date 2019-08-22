@@ -1,321 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0acbb623-233d-4266-aa16-4b343a2df2cc" name="Default Changelist" comment="">
+    <list default="true" id="01ac9dd6-7db9-4df6-919c-0e6314264ceb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/practice/DP/DictionarySolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding/practice/DP/DictionarySolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/practice/PraticeApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/practice/general/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding/practice/general/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TailProcessing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/AvgSumArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/BuySellStocks$Interval.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/BuySellStocks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/CanReachEnd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/CheckPermuationAsPowerOf2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/DistinctValueSubArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/DutchNationalFlagProblem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/ExtendedNum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/FindDuplicatingElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/FindIndexOfZeroToBeReplacedToFindMaxOnes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/FindPairWithGivenSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/FindUniqueString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/GivenSumSubArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/IncrementingArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/IncrementingArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/LargestNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/MaxProductOfTwoIntegers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/MinSwapRequiredToSortArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/MoveZeros.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/NextGreaterElementInArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/ReArrangeArrayWithAlternateLowAndHighElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/ReservoirProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/ReservoirProblem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/RotateMatrix90AntiClock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/SortBinaryArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/SubArrayWithEqualZeroAndOne.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/SubArrayWithSumZero.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/TestClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/TrappingWater.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/TripletSumZero.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/UnbiasedPermutationShuffle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/Array/ZeroSumSubarray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/DP/CoinChangeMinCoin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/DP/Dictionary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/DP/DictionarySolution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/DP/EditDistance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/DP/EggDropping.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/DP/ExternalSorting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/DP/Factorial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/DP/Fibo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/DP/FindLongestSubStringWithEqualSumInTwoHalfs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/DP/FindMinNumberOperationsRequiredToConvertStr1Str2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/DP/FindSumCombination.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/DP/FindSumCombinationNIntegers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/DP/GeneratePermutations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/DP/LongestRepeatingSubStringNonOverlapping.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/DP/MaxSumSubArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/DP/MinimumDistanceArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/DP/NthPowerOfNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/coding/practice/DP/NthPowerOfNum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/DP/NumberOfArrayWithSumK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/DP/Staircase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/DP/TotalWayToReachSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/DP/TwoDarrayMinPath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/DP/UmbrellaDistribution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/DP/WayToArrangeTiles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/LinkedList/FlatteningLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/LinkedList/HrchyLL$HrchyNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/LinkedList/HrchyLL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/LinkedList/LLNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/LinkedList/LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/LinkedList/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/LinkedList/PalindromeLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/LinkedList/RemoveDuplicates.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/OperatingSystem/LRUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/coding/practice/OperatingSystem/LRUCache.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/PraticeApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/design/blackjack/BlackJackCard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/design/blackjack/BlackJackHand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/design/blackjack/Card.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/design/blackjack/CardOld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/design/blackjack/Hand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/design/blackjack/Suit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/ArrayClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/Child.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/coding/practice/general/Child.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/CountAndSay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/FindLargestPowerOfTwo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/FindMaxInInterval.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/GCD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/JosephusProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/coding/practice/general/JosephusProblem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/MaxProfit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/coding/practice/general/MaxProfit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/MaxSumSubset.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/MeetingScheduler$Meeting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/coding/practice/general/MeetingScheduler$Meeting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/MeetingScheduler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/coding/practice/general/MeetingScheduler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/MergeOverlappingIntervals$Interval.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/MergeOverlappingIntervals.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/coding/practice/general/Parent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/PreProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/PrimeFactorsOfLargeNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/PrintTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/QueenAttack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/RamdomNumberFromStreams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/SmallestNonConstructibleValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/Sol.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/Solution2$object.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/Solution2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/SumOfNumArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/TestClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/TestClass1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/TestClass2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/abstractClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/coding/practice/general/abstractClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/bitWiseOperations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/classB$normalClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/classB$staticNestedClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/classB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/general/example.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/coding/practice/general/example.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/greedy/TravellingSalesMan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/FactoryDesignPatternImmutableObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/ImmutableUser$UserBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/ImmutableUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/Computable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/CountDownLatchExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/CyclicBarrierExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/DeadLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/EfficientCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/ExecutorServiceExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/ExecutorThreadPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/ExpensiveFunction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/Food.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/ForkJoinClassExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/Fox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/LionPenManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/LogWriter$LoggerThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/LogWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/LoggingServiceSynchornized.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/LoggingWidget.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/Memoizer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/Memoizer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/Memoizer2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/Memoizer3$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/Memoizer3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/Memorizer1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/Notifier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/ReentrantLockExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/SimpleThreadPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/SyncThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/TestHarness$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/TestHarness.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/ThreadDeadLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/WaitNotifyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/Waiter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/Water.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/WeightAnimalAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/Widget.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/concurrency/WorkerThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/enumpratice/Enum$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/enumpratice/Enum$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/enumpratice/Enum$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/enumpratice/Enum$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/enumpratice/Enum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/generics/GenericMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/java/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/recursion/TowerOfHanoi$Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/recursion/TowerOfHanoi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/searching/BinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/searching/FiboSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/BubbleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/BucketSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/FindAllSubStrings$SuffixTrieNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/FindAllSubStrings$Suffix_Trie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/FindAllSubStrings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/HeapSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/InPlaceMergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/InsertionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/MaxPalindromeSubString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/MergeSortLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/MergeSortOrder1Space.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/MergeSortOrder1Space.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/MergeSortThreaded.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/MergeSortThreeWay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/PrintSubSetOfGivenArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/QuickSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/QuickSortDualPivot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/QuickSortHoarePartition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/QuickSortRandomize.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/QuickSortSingleLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/QuickSortThreeWay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/RadixSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/SelectionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/SelectionSortImproved.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/SelectionSortStable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/SelectionSortStable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/ShellSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/TimSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/TimSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/Worker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/sorting/worstCaseMergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/tree/BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/tree/CheckIsBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/coding/practice/tree/CheckIsBST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/tree/DirectoryDeletion$DirectoryNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/tree/DirectoryDeletion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/tree/InsertionBTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/tree/LCABTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/tree/LevelOrderTraversal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/tree/MinSwapForBST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/tree/PrintAllLeafNodes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/tree/PrintAutoSuggestions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/tree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/coding/practice/tree/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/tree/Trie$TrieNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/tree/Trie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/practice/tree/sumOfAllNodes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/META-INF/main.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/practice/general/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="94" selection-start-line="94" selection-end-line="94" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/practice/DP/DictionarySolution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/coding/practice/PraticeApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/coding/practice/general/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/coding/practice/DP/DictionarySolution.java" />
-      </list>
-    </option>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="947" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="codingpractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codingpractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codingpractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codingpractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="DP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codingpractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="DP" type="462c0819:PsiDirectoryNode" />
-              <item name="DictionarySolution.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1PlwUH4bPBiSXDhOSSdUzn5hhNQ" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -334,7 +51,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0acbb623-233d-4266-aa16-4b343a2df2cc" name="Default Changelist" comment="" />
+      <changelist id="01ac9dd6-7db9-4df6-919c-0e6314264ceb" name="Default Changelist" comment="" />
       <created>1563439356098</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -342,95 +59,17 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="947" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.15672515" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25579977" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="0" visible="true" weight="0.15672515" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout-to-restore>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/practice/PraticeApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/practice/general/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coding/practice/DP/DictionarySolution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
